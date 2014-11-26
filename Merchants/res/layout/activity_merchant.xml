@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+            
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <Button
+	         android:id="@+id/btnChk"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:bottomRightRadius="15dp"
+	         android:bottomLeftRadius="15dp"
+	         android:topRightRadius="15dp"
+	         android:topLeftRadius="15dp"
+	         android:text="Checkout"/>
+	     <TextView
+	         android:id="@+id/txtCheckout"
+	         android:layout_width="match_parent"
+	         android:layout_height="fill_parent"
+	         android:paddingBottom="10sp"
+	         android:text="" />     
+         <CheckBox
+            android:id="@+id/btnOrderKPC"
+            android:layout_margin="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kung Pao Chicken 宫保雞丁  $12.95"/>
+         <ImageView 
+            android:src="@drawable/kung_pao_chicken"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+         <CheckBox
+            android:id="@+id/btnOrderBNS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beef Noodle Soup 牛肉麵 $9.95" />       
+         <ImageView
+            android:src="@drawable/beef_noodle_soup"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/btnSTF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:text="Silky Tofu 皮蛋豆腐 $4.95"/>
+       <ImageView
+            android:src="@drawable/silky_tofu"
+            android:background="#66FFFFFF"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/btnBJD"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Beijing Duck 北京烤鸭 $14.95"/>
+        <ImageView
+            android:src="@drawable/beijing_duck"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            
+        <CheckBox
+            android:id="@+id/btnCPB"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="chinese_pork_burger 挂包  $3.95"/>
+        <ImageView
+            android:src="@drawable/chinese_pork_burger"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/btnFTF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fried Tofu 炸豆腐  $9.95"/>
+        <ImageView
+            android:src="@drawable/fried_tofu"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/btnMPT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Miced prok Tofu 麻婆豆腐  $9.95"/>
+        <ImageView
+            android:src="@drawable/mapoutofu"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+           <!--  android:textAppearance="?android:attr/textAppearanceLarge" -->        
+
+    </LinearLayout>
+</ScrollView>
